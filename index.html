@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="images/home/.png" type="image/x-icon" />
+	<title>Cruz del Sur</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/slider-menu.jquery.css">
+	<link rel="stylesheet" type="text/css" href="css/slider-menu.theme.jquery.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+	    <nav id="header" class="navbar navbar-expand-lg navbar-light">
+	    	<img class="base-header" src="images/home/header.png">
+	    	<div class="container">				
+				<a href="">
+		            <img src="images/home/download.png" alt="" class="img-mob">
+		        </a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+		        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+					<div class="nav_desktop ml-auto">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="">
+									Destinos
+								</a>
+							</li>
+							<div class="divided-menu"></div>
+							<li class="nav-item dropdown">
+								<a class="nav-link ipad-pro" href="">
+									Servicios
+								</a>
+								<span class="dropdown-toggle icon-link-after" id="servicios" data-toggle="dropdown"></span>
+								<div class="dropdown-menu" aria-labelledby="#servicios">
+									<a class="dropdown-item" href="">
+										submenu 1
+									</a>	
+									<a class="dropdown-item" href="">
+										submenu 2
+									</a>
+								</div>
+							</li>
+							<div class="divided-menu"></div>						
+							<li class="nav-item dropdown">
+								<a class="nav-link ipad-pro" href="">
+									Pasajero Frecuente
+								</a>
+								<span class="dropdown-toggle icon-link-after" id="pasajero-frecuente" data-toggle="dropdown"></span>
+								<div class="dropdown-menu" aria-labelledby="#pasajero-frecuente" style="margin-left: 10px;">
+									<a class="dropdown-item" href="">
+										submenu 1
+									</a>	
+									<a class="dropdown-item" href="">
+										submenu 2
+									</a>
+									<a class="dropdown-item" href="">
+										submenu 3
+									</a>
+								</div>
+							</li>
+							<div class="divided-menu"></div>
+							<li class="nav-item dropdown">
+								<a class="nav-link ipad-pro" href="">
+									Encuentranos
+								</a>
+								<span class="dropdown-toggle icon-link-after" id="encuentranos" data-toggle="dropdown"></span>
+								<div class="dropdown-menu" aria-labelledby="#encuentranos" style="margin-left: 10px;">
+									<a class="dropdown-item" href="">
+										submenu 1
+									</a>	
+									<a class="dropdown-item" href="">
+										submenu 2
+									</a>
+									
+									<a class="dropdown-item" href="">
+										submenu 3
+									</a>	
+									<a class="dropdown-item" href="">
+										submenu 4
+									</a>
+									<a class="dropdown-item" href="">
+										submenu 5
+									</a>
+								</div>
+							</li>
+							<div class="divided-menu"></div>
+							<li class="nav-item">
+								<a class="nav-link" href="">La empresa</a>
+							</li>
+						</ul>
+					</div>
+					<div class="nav_mobile">
+						<ul class="navbar-nav ml-auto my-menu">
+							<li><a href="">
+								Destinos
+							</a></li>
+							<li><a href="<?php echo home_url(); ?>/">
+								Servicios</a>
+								<ul>
+									<li><a href="">
+										submenu 1
+									</a></li>
+									<li><a href="">
+										submenu 2
+									</a></li>
+									<li><a href="">
+										submenu 3
+									</a></li>
+								</ul>	
+							</li>					
+							<li><a href="<?php echo home_url(); ?>/">
+								Pasajero frecuente
+								</a>
+								<ul>
+									<li><a href="">
+										submenu 1
+									</a></li>
+									<li><a href="">
+										submenu 2
+									</a></li>
+									<li><a href="">
+										submenu 3
+									</a></li>
+									<li>
+										<a href="">
+										submenu 4
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="">
+								Encuentranos
+								</a>
+								<ul>
+									<li><a href="">
+										submenu 1
+									</a></li>
+									<li><a href="">
+										submenu 2
+									</a></li>
+									<li><a href="">
+										submenu 3
+									</a></li>
+									<li><a href="">
+										submenu 4
+									</a></li>
+									<li><a href="">
+										submenu 5
+									</a></li>	
+								</ul>
+							</li>
+							<li><a href="">
+								La Empresa
+							</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<section class="hero-image">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  	<ol class="carousel-indicators">
+		    	<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    	<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    	<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		  	</ol>
+			<div class="carousel-inner">
+			    <div class="carousel-item active" style="background-image: url('images/home/hero-image.jpg');">
+			    	<div class="carousel-caption d-block">
+				    	<h4>Relajate y viaja a cusco</h4>
+			    		<h2>desde US$39 o S/129 solo ida</h2>
+				    </div>   
+			    </div>
+			    <div class="carousel-item" style="background-image: url('images/home/hero-image.jpg');">
+			    	<div class="carousel-caption d-block">
+				    	<h4>Relajate y viaja a cusco</h4>
+			    		<h2>desde US$39 o S/129 solo ida</h2>
+				    </div> 		      
+			    </div>
+			    <div class="carousel-item" style="background-image: url('images/home/hero-image.jpg');">
+			    	<div class="carousel-caption d-block">
+				    	<h4>Relajate y viaja a cusco</h4>
+			    		<h2>desde US$39 o S/129 solo ida</h2>
+				    </div> 
+			    </div>
+			</div>
+			<form class="search-date">
+				<div class="ida-y-vuelta">
+					<input type="radio" id="ida-y-vuelta" name="date" value="2" checked>
+					<label for="ida-y-vuelta">IDA Y VUELTA</label>
+				</div>
+				<div class="ida">
+					<input type="radio" id="ida" name="date" value="2">
+					<label for="ida">SOLO IDA</label>
+				</div>
+			    <div class="row">
+			    	<div class="col-md">
+			    		<div class="input-group">
+			    			<span class="input-group-addon">
+			        		<i class="fas fa-map-marker-alt"></i>
+			    			</span>
+			    			<input type="text" class="form-control" placeholder="Origen" />    
+						</div>
+			    	</div>
+			    	<div class="col-md">
+			    		<div class="input-group">
+			    			<span class="input-group-addon">
+			        		<i class="fas fa-map-marker-alt"></i>
+			    			</span>
+			    			<input type="text" class="form-control" placeholder="Destino" />    
+						</div>
+			    	</div>
+			    	<div class="col-md">
+			    		<div class="input-group">
+			    			<span class="input-group-addon">
+			        		<i class="far fa-calendar-alt"></i>
+			    			</span>
+			    			<input type="text" class="form-control" placeholder="17-04-2019" />    
+						</div>
+			    	</div>
+			    	<div class="col-md">
+			    		<div class="input-group">
+			    			<span class="input-group-addon">
+			        		<i class="far fa-calendar-alt"></i>
+			    			</span>
+			    			<input type="text" class="form-control" placeholder="25-04-2019" />    
+						</div>
+			    	</div>
+			    	<div class="col-md-1 text-center pl-sm-0">
+			    		<button><i class="fas fa-search"></i></button>    		
+			    	</div>
+			    </div>    
+			</form>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			</a>
+		</div>
+	</section>
+	<section class="section-flight">
+		<div class="container">
+			<div class="flight slider">
+				<div>
+			      <div class="box-slick">
+			        <img class="w-100" src="images/home/flight.jpg">
+			        <p>US% 130 ó S/.423</p>
+			      </div>
+				</div>
+				<div>
+			      <div class="box-slick">
+			        <img class="w-100" src="images/home/flight.jpg">
+			        <p>US% 130 ó S/.423</p>
+			      </div>
+			    </div>
+			    <div>
+			      <div class="box-slick">
+			        <img class="w-100" src="images/home/flight.jpg">
+			        <p>US% 130 ó S/.423</p>
+			      </div>
+				</div>
+				<div>
+			      <div class="box-slick">
+			        <img class="w-100" src="images/home/flight.jpg">
+			        <p>US% 130 ó S/.423</p>
+			      </div>
+				</div>
+				<div>
+			      <div class="box-slick">
+			        <img class="w-100" src="images/home/flight.jpg">
+			        <p>US% 130 ó S/.423</p>
+			      </div>
+				</div>
+				<div>
+			      <div class="box-slick">
+			        <img class="w-100" src="images/home/flight.jpg">
+			        <p>US% 130 ó S/.423</p>
+			      </div>
+				</div>
+				<div>
+			      <div class="box-slick">
+			        <img class="w-100" src="images/home/flight.jpg">
+			        <p>US% 130 ó S/.423</p>
+			      </div>
+				</div>
+				<div>
+			      <div class="box-slick">
+			        <img class="w-100" src="images/home/flight.jpg">
+			        <p>US% 130 ó S/.423</p>
+			      </div>
+				</div>
+				<div>
+			      <div class="box-slick">
+			        <img class="w-100" src="images/home/flight.jpg">
+			        <p>US% 130 ó S/.423</p>
+			      </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section-destinos">
+		<div class="container pt-5 pb-1">
+			<h2 class="text-center">Destinos más visitados</h2>
+			<div class="destinos slider">
+				<div>
+			      <div class="box-destinos">
+			        <img class="w-100" src="images/home/about-htp.jpg">
+			        <div class="box-text">
+			        	<p><b>Laguna Llaca</b></p>
+			        	<p>Huaraz</p>
+			        </div>
+			      </div>
+				</div>
+				<div>
+			      <div class="box-destinos">
+			        <img class="w-100" src="images/home/about-htp.jpg">
+			        <div class="box-text">
+			        	<p><b>Arco Parabólico</b></p>
+			        	<p>Tacna</p>
+			        </div>
+			      </div>
+			    </div>
+			    <div>
+			      <div class="box-destinos">
+			        <img class="w-100" src="images/home/about-htp.jpg">
+			        <div class="box-text">
+			        	<p><b>Volcán Misti</b></p>
+			        	<p>Arequipa</p>
+			        </div>
+			      </div>
+				</div>
+				<div>
+			      <div class="box-destinos">
+			        <img class="w-100" src="images/home/about-htp.jpg">
+			        <div class="box-text">
+			        	<p><b>Volcán Misti</b></p>
+			        	<p>Arequipa</p>
+			        </div>
+			      </div>
+				</div>
+				<div>
+			      <div class="box-destinos">
+			        <img class="w-100" src="images/home/about-htp.jpg">
+			        <div class="box-text">
+			        	<p><b>Volcán Misti</b></p>
+			        	<p>Arequipa</p>
+			        </div>
+			      </div>
+				</div>
+				<div>
+			      <div class="box-destinos">
+			        <img class="w-100" src="images/home/about-htp.jpg">
+			        <div class="box-text">
+			        	<p><b>Volcán Misti</b></p>
+			        	<p>Arequipa</p>
+			        </div>
+			      </div>
+				</div>
+				<div>
+			      <div class="box-destinos">
+			        <img class="w-100" src="images/home/about-htp.jpg">
+			        <div class="box-text">
+			        	<p><b>Volcán Misti</b></p>
+			        	<p>Arequipa</p>
+			        </div>
+			      </div>
+				</div>
+				<div>
+			      <div class="box-destinos">
+			        <img class="w-100" src="images/home/about-htp.jpg">
+			        <div class="box-text">
+			        	<p><b>Volcán Misti</b></p>
+			        	<p>Arequipa</p>
+			        </div>
+			      </div>
+				</div>
+				<div>
+			      <div class="box-destinos">
+			        <img class="w-100" src="images/home/about-htp.jpg">
+			        <div class="box-text">
+			        	<p><b>Volcán Misti</b></p>
+			        	<p>Arequipa</p>
+			        </div>
+			      </div>
+				</div>
+			</div>
+			<hr>
+			<div class="text-center">	
+				<img class="w-50 mt-3-mb-3" src="images/home/cards.jpg">
+			</div>	
+			<hr>	
+			<div class="list-skills text-center mt-sm-5">
+				<ul class="m-0">
+					<li>Seguridad</li>
+					<li>Internet</li>
+					<li>Comodidad</li>
+					<li>Puntualidad</li>
+					<li>Atención al cliente</li>
+					<li>Sistema GPS</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="menu-footer text-white pt-3 pb-3 pt-sm-2 pb-sm-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-4 text-center text-xl-right">
+						<p class="m-0">ENCUENTRANOS EN
+							<a href=""><i class="fab fa-facebook-f"></i></a>
+							<a href=""><i class="fab fa-twitter"></i></a>
+							<a href=""><i class="fab fa-youtube"></i></a>
+							<a href=""><i class="fab fa-instagram"></i></a>
+						</p>						
+					</div>
+					<div class="col-xl-8 list text-center mt-2 mt-sm-0">
+						<a href="">Restricciones de tarfia</a>
+						<a href="">Términos y condiciones</a>
+						<a href="">FAQS</a>
+						<a href="">Protección de Datos</a>
+						<a href="">Mapa del sitio</a>
+						<a href="">Libro de reclamaciones</a>
+					</div>
+				</div>
+			</div>			
+		</div>
+		<div class="copyright text-center pt-2 pb-2 text-white">
+			<div class="container">
+				<p class="m-0">&copy; CRUZ DEL SUR AV. JAVIER PRADO 1109, LA VICTORIA - LIMA PERÚ</p>
+			</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slider-menu.jquery.min.js"></script>
+    <script>
+	( function( $ ) {
+		$( function() {
+		$( '.my-menu' ).sliderMenu();
+		});
+	})( jQuery );
+	</script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+			  $('.flight').slick({
+			  slidesToShow: 3,
+			  slidesToScroll: 1,
+			  autoplay: true,
+			  centerMode: true,
+			  autoplaySpeed: 3000,
+			  responsive: [
+			    {
+			      breakpoint: 768,
+			      settings: {
+			        centerMode: true,
+			        centerPadding: '40px',
+			        slidesToShow: 3,
+			        autoplaySpeed: 3000,
+			      }
+			    },
+			    {
+			      breakpoint: 480,
+			      settings: {
+			        centerMode: true,
+			        centerPadding: '40px',
+			        slidesToShow: 1,
+			        autoplaySpeed: 3000,
+			      }
+			    }
+			  ]
+			});
+            $('.slick-next').html( "<i class='fas fa-chevron-right'></i>" );
+            $('.slick-prev').html( "<i class='fas fa-chevron-left'></i>" );
+        });    
+    </script>
+    <script type="text/javascript">
+    	    $(document).ready(function(){
+			  $('.destinos').slick({
+			  slidesToShow: 3,
+			  slidesToScroll: 1,
+			  autoplay: true,
+			  autoplaySpeed: 3000,
+			  responsive: [
+			    {
+			      breakpoint: 768,
+			      settings: {
+					  slidesToShow: 3,
+					  slidesToScroll: 1,
+					  autoplay: true,
+					  autoplaySpeed: 3000,
+			      }
+			    },
+			    {
+			      breakpoint: 480,
+			      settings: {
+					  slidesToShow: 1,
+					  slidesToScroll: 1,
+					  autoplay: true,
+					  autoplaySpeed: 3000,
+			      }
+			    }
+			  ]
+			});
+            $('.slick-next').html( "<i class='fas fa-chevron-right'></i>" );
+            $('.slick-prev').html( "<i class='fas fa-chevron-left'></i>" );
+        }); 
+    </script>
+</body>
+</html>

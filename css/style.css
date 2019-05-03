@@ -241,6 +241,14 @@ nav {
     float: left;
     margin-right: 30px;
 }
+.metodos-pago img{
+    display: inline-block;
+    height: 40px;
+    margin: 10px;
+}
+.metodos-pago .paypal, .metodos-pago .paysafe {
+    height: 20px;
+}
 /* footer */
 .menu-footer {
     background: #0051AA;
